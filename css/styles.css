@@ -1,3 +1,71 @@
-body {
-  background-color: tomato;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --button-color: #FFFFFF;
 }
+ul {
+  list-style: none;
+}
+/* Колір основного тексту
+color: #212121  - main
+color: #757575 - text
+color: #2196F3 - accent
+color:#FFFFFF - hero
+color:  #2196F3, #FFFFFF - logo
+color: rgba(255, 255, 255, 0.6) - adress   
+fill: FFFFFF
+fill our team: F5F4FA
+fill footer: 2F303A    */
+body {
+  color: var(--primary-text-color);
+  background-color: #FFFFFF;
+}
+.logo-blue {
+  color: var(--accent-color);
+}
+.logo {
+  color: #000000;
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+/* site-nav */
+
+.site-nav
+.link {
+color: var(--accent-color);
+}
+.site-nav,
+.link:hover,
+.link:focus {
+color: var(--title-text-color);
+}
+/* Section */
+
+.section .section-title {
+  color: var(--title-text-color);
+}
+
+/* button */
+.button {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
+  /* footer */
+
+ .footer {
+  background-color: #2F303A;
+  }
+.footer .logo {
+  color: #FFFFFF;
+}
+.adress .adress-street  {
+color: #FFFFFF;
+}
+.adress .adress-mail {
+  color: rgba(255, 255, 255, 0.6);
+
+}
+.adress .adress-phone {
+  color: rgba(255, 255, 255, 0.6)
