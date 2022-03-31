@@ -27,6 +27,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-display: swap;
 }
 /* logo */
 .logo-blue {
@@ -65,20 +66,20 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+
 /* hero */
+
 .hero .hero-title {
   color: #FFFFFF;
-  background-color: #2F303A;
-  
+  background-color: #2F303A;  
 
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-
 
 /* Section */
 
@@ -110,9 +111,8 @@ text-transform: uppercase;
 }
 
 .team-position {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .section-name {
@@ -124,15 +124,16 @@ line-height: 1.18;
   letter-spacing: 0.06em;  
 }
 .section-post {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 
 /* button */
+
 .button {
   color: var(--button-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 
   font-family: 'Roboto';
   font-weight: 700;
@@ -147,6 +148,7 @@ line-height: 1.18;
 .buttons {
   color: var(--button-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 
   font-family: 'Roboto';
   font-weight: 500;
