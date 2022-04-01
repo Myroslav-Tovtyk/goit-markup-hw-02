@@ -48,23 +48,33 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
   }
 
 /* site-nav */
 
-.site-nav
-.link {
-color: var(--accent-color);
-}
-.site-nav,
 .link:hover,
 .link:focus {
+color: var(--accent-color);
+}
+
+.site-nav, 
+.link {
 color: var(--title-text-color);
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.link-contact:hover {
+  color: var(--accent-color);
+}
+
+.site-nav, .link-contact {
+  color: var(--primary-text-color);
 }
 
 /* hero */
@@ -82,6 +92,10 @@ letter-spacing: 0.02em;
 }
 
 /* Section */
+
+.section-title {
+opacity: 0;
+}
 
 .section .section-title {
   color: var(--title-text-color);
@@ -146,8 +160,7 @@ letter-spacing: 0.02em;
 }
 
 .buttons {
-  color: var(--button-color);
-  background-color: var(--accent-color);
+  color: var(--title-text-color);
   cursor: pointer;
 
   font-family: 'Roboto';
@@ -155,6 +168,10 @@ letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+}
+.buttons:hover {
+  color: var(--button-color);
+  background-color: var(--accent-color);
 }
   /* footer */
 
@@ -169,10 +186,15 @@ letter-spacing: 0.02em;
 }
 .adress .adress-street  {
 color: #FFFFFF;
+font-style: normal;
 }
 .adress .adress-mail {
   color: rgba(255, 255, 255, 0.6);
-
+  text-decoration: none;
+  font-style: normal;
 }
 .adress .adress-phone {
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
