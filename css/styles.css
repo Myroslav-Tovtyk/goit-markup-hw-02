@@ -76,6 +76,7 @@ text-decoration: none;
 
 .site-nav, .link-contact {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /* hero */
