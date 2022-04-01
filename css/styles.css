@@ -145,8 +145,7 @@ opacity: 0;
 /* button */
 
 .button {
-  color: var(--button-color);
-  background-color: var(--accent-color);
+  color: var(--title-text-color);
   cursor: pointer;
 
   font-family: 'Roboto';
@@ -157,6 +156,11 @@ opacity: 0;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.button:hover {
+  color: var(--button-color);
+  background-color: var(--accent-color);
 }
 
 .buttons {
