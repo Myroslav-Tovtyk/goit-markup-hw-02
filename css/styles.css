@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196F3;
   --button-color: #FFFFFF;
+  --btn-bgd-color: #F5F4FA;
 }
 ul {
   list-style: none;
@@ -146,6 +147,7 @@ opacity: 0;
 
 .button {
   color: var(--title-text-color);
+  background-color: var(--btn-bgd-color);
   cursor: pointer;
 
   font-family: 'Roboto';
@@ -165,6 +167,7 @@ opacity: 0;
 
 .buttons {
   color: var(--title-text-color);
+  background-color: var(--btn-bgd-color);
   cursor: pointer;
 
   font-family: 'Roboto';
